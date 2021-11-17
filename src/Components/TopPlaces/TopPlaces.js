@@ -6,7 +6,7 @@ const TopPlaces = () => {
         <Container className='py-5'>
             <h4 className='fs-1 fw-bold text-center py-3'>TOP PLACE'S</h4>
             <Row>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <Card className='shadow' style={{ cursor: 'pointer' }}>
                         <Card.Img variant="top" src="https://triper.dexignlab.com/react/static/media/pic1.577e43b0.jpg" />
                         <Card.Body>
@@ -18,7 +18,7 @@ const TopPlaces = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <Card className='shadow' style={{ cursor: 'pointer' }}>
                         <Card.Img variant="top" src="https://triper.dexignlab.com/react/static/media/pic2.22b11b02.jpg" />
                         <Card.Body>
@@ -30,7 +30,7 @@ const TopPlaces = () => {
                         </Card.Body>
                     </Card>
                 </Col>
-                <Col>
+                <Col sm={12} md={4} lg={4}>
                     <Card className='shadow' style={{ cursor: 'pointer' }}>
                         <Card.Img variant="top" src="https://triper.dexignlab.com/react/static/media/pic3.34a4ed08.jpg" />
                         <Card.Body>
