@@ -1,0 +1,17 @@
+/* footer */
+.bg-color{
+    background-color: black;
+}
+.tags a{
+    text-decoration: none;
+    background-color: rgba(77, 84, 94, .8);
+    border: 1px solid #4d545e;
+    color: #d1d1d1;
+    display: inline-block;
+    font-size: 13px;
+    padding: 8px 11px;
+    margin: 0 0 4px 4px;
+};
+.tags a:hover{
+    background-color: cornflowerblue;
+};
