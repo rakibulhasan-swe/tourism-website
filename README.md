@@ -1,3 +1,22 @@
+# TRIPER - A travelling and hotel booking website
+
+### This website icludes
+* Login/Logout system
+* Hotel booking services
+* Special travelling packages
+* News/blog section
+* A good amount of travelling+hotel bookings services
+
+### This website is made by using
+* HTML5
+* CSS3
+* JAVASCRIPT
+* REACT
+* FIREBASE
+
+# Website link -- [triper](https://triper-12fcb.web.app/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
