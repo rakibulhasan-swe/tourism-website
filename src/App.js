@@ -13,11 +13,16 @@ import ManageOrderDashboard from "./Components/ManageOrderDashboard/ManageOrderD
 import ServicesPage from "./Components/ServicesPage/ServicesPage";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import NoMatch from "./Components/NoMatch/NoMatch";
+import Loader from "./Components/Loader/Loader";
 
 export const UserContext = createContext(null);
 
 function App() {
   const [contextData, setContextData] = useState({});
+  window.addEventListener("load", () => {
+    console.log('loading');
+    return <Loader />;
+  });
   return (
     <UserContext.Provider value={[contextData, setContextData]}>
       <BrowserRouter>
