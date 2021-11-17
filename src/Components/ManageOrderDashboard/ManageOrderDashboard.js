@@ -8,7 +8,7 @@ import Navigation from "../Navigation/Navigation";
 const ManageOrderDashboard = () => {
   const [customerOrder, setCustomerOrder] = useState([]);
   const [loading, setLoading] = useState(true);
-  const backendUrl = "http://localhost:4000";
+  const backendUrl = "https://salty-springs-75892.herokuapp.com";
 
   useEffect(() => {
     fetchData();

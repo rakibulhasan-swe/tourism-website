@@ -14,12 +14,12 @@ const OrderPackage = () => {
   const [orderData, setOrderData] = useState();
   const [loading, setLoading] = useState(true);
   const id = useParams().id;
-  const backendUrl = "http://localhost:4000";
+  const backendUrl = "https://salty-springs-75892.herokuapp.com";
 
   const { displayName, email } = contextData;
 
   useEffect(() => {
-    fetch(`http://localhost:4000/service/${id}`)
+    fetch(`${backendUrl}/service/${id}`)
       .then((res) => res.json())
       .then((data) => {
         setOrderPackage(data[0]);

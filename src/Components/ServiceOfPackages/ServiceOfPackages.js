@@ -8,7 +8,7 @@ const ServiceOfPackages = () => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:4000/service")
+    fetch("https://salty-springs-75892.herokuapp.com/service")
       .then((res) => res.json())
       .then((data) => {
         setServices(data);

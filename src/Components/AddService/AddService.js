@@ -8,7 +8,7 @@ import swal from "sweetalert";
 const AddService = () => {
   const [service, setService] = useState();
 
-  const backendUrl = "http://localhost:4000";
+  const backendUrl = "https://salty-springs-75892.herokuapp.com";
 
   const handleBlur = (e) => {
     const name = e.target.name;
